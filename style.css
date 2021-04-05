@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.movie_head i {
+    float: right
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    font-size: 25;
+    color: black;
+}
+
+h1 {
+    font-size: 20;
+    color: black;
+}
